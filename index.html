@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite|Aldrich">
     <link rel="stylesheet" href="estilos.css">
     <link rel="shortcut icon" href="imgs/favicon.png">
+    
   </head>
   <body>
     <header id="topo-da-pagina">
@@ -96,7 +97,10 @@
           </h2>
         </article>
       </section>
-
+      <a id="voltar-topo" href="#topo-da-pagina">&#x2b06;</a>
+      <img class="boo" src="imgs/boo1.gif" alt="">
+      <img class="boo" src="imgs/boo2.gif" alt="">
+      <img class="boo" src="imgs/boo3.gif" alt="">
     </main>
 
     <footer>
@@ -121,7 +125,7 @@
 
     <script>
       // faz o vídeo desaparecer de leve assim que terminar
-      let tempo = 11000;  // 11s, duração do vídeo
+      let tempo = 11;  // 11s, duração do vídeo
       setTimeout(() => {
         // faz o vídeo desaparecer colocando a classe .desaparecido
         document.querySelector('.backdrop').classList.add('desaparecido');
@@ -136,5 +140,6 @@
         e.currentTarget.classList.add('desaparecido');
       });
     </script>
+    <script src="boos.js"></script>
   </body>
 </html>
